@@ -1,0 +1,142 @@
+{
+  "formatted_address": "Morton Ave, Elk River, MN 55330, USA",
+  "formatted_phone_number": "(763) 498-2264",
+  "name": "Gary's Handyman Service L.L.C",
+  "opening_hours": {
+    "open_now": false,
+    "periods": [
+      {
+        "close": {
+          "day": 1,
+          "time": "1800"
+        },
+        "open": {
+          "day": 1,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "day": 2,
+          "time": "1800"
+        },
+        "open": {
+          "day": 2,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "day": 3,
+          "time": "1800"
+        },
+        "open": {
+          "day": 3,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "day": 4,
+          "time": "1800"
+        },
+        "open": {
+          "day": 4,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "day": 5,
+          "time": "1800"
+        },
+        "open": {
+          "day": 5,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "day": 6,
+          "time": "1700"
+        },
+        "open": {
+          "day": 6,
+          "time": "0900"
+        }
+      }
+    ],
+    "weekday_text": [
+      "Monday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+      "Tuesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+      "Wednesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+      "Thursday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+      "Friday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+      "Saturday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+      "Sunday: Closed"
+    ]
+  },
+  "rating": 4.8,
+  "reviews": [
+    {
+      "author_name": "Kaylyn Williams",
+      "author_url": "https://www.google.com/maps/contrib/114899570858213240674/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjUfUqIbfoPUJH2gVPbDviAOdV2Y6Alw3M2yDST05ZamH_hcQTZe2A=s128-c0x00000000-cc-rp-mo",
+      "rating": 4,
+      "relative_time_description": "a year ago",
+      "text": "I hired Gary to install a ceiling fan in my bedroom. I love the work he did plus he was affordable. I would definitely recommend him to others.",
+      "time": 1736982281,
+      "translated": false
+    },
+    {
+      "author_name": "Christine Bjerkebek",
+      "author_url": "https://www.google.com/maps/contrib/101946344460055090424/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocJKV86nvkrDEwjNtLqtzyLwRYqI4kzxGFqmFS59gj2GGvMrsA=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "a year ago",
+      "text": "Gary and team have been lifesavers for us more than once over the last few months!  They are very responsive and charge fair prices.  I highly recommend.",
+      "time": 1736781418,
+      "translated": false
+    },
+    {
+      "author_name": "James Hewitt",
+      "author_url": "https://www.google.com/maps/contrib/116487574169552686322/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjVK6n86a1-Wty4hjY_8PRFB9j4YETNhKc1i_WQM68YXhsfn-MQl=s128-c0x00000000-cc-rp-mo-ba3",
+      "rating": 5,
+      "relative_time_description": "2 weeks ago",
+      "text": "I would say the best handyman in the Midwest will be calling him back again for sure.",
+      "time": 1782417618,
+      "translated": false
+    },
+    {
+      "author_name": "Loren Faibisch",
+      "author_url": "https://www.google.com/maps/contrib/105283268140533203328/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjUjydY7lASnI74VneacwVjaETLtA3mwcxAdWtvoRIOg7wHjvjqJ=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "2 weeks ago",
+      "text": "Haru is super reliable. He has helped with landscaping plumbing ,built a shelter irrigation snow removal garage snow removal\nfencing tre removal wood splitting and more he is a delight to work with?",
+      "time": 1782415125,
+      "translated": false
+    },
+    {
+      "author_name": "Melissa Angell",
+      "author_url": "https://www.google.com/maps/contrib/103345471485585191571/reviews",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjXy2_Txs7dTNznmX7HsWZ_VxwpV7bv_68sDgFKvxMCwMUJ3gkA=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "2 weeks ago",
+      "text": "",
+      "time": 1782178645,
+      "translated": false
+    }
+  ],
+  "url": "https://maps.google.com/?cid=12672528613355889412",
+  "user_ratings_total": 5
+}
