@@ -76,6 +76,11 @@
   .service-detail .body { color: rgba(0,0,0,0.62); font-size: 0.95rem; }
   @media (max-width: 760px) { .service-detail-grid { grid-template-columns: 1fr; } }
 
+  .gallery-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 16px; }
+  .gallery-grid img { border-radius: 14px; width: 100%; height: 320px; object-fit: cover; }
+  .gallery-grid img:first-child { height: 320px; }
+  @media (max-width: 760px) { .gallery-grid { grid-template-columns: 1fr; } .gallery-grid img { height: 220px; } }
+
   .about-layout { display: grid; grid-template-columns: 1fr 0.9fr; gap: 48px; align-items: start; }
   .about-layout img { border-radius: 14px; aspect-ratio: 4/3; object-fit: cover; width: 100%; }
   .about-copy p { color: rgba(0,0,0,0.68); margin-bottom: 18px; max-width: 60ch; }
@@ -162,7 +167,7 @@
 <li><b>Same-Day Service</b>: Calls answered fast, no overnight wait.</li></ul>
       <div class="cta-row" style="margin-top:24px;"><a class="btn btn-primary" style="color:#fff;background:var(--accent);" href="tel:7634982264">Call (763) 498-2264</a></div>
     </div>
-    <img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=900&photoreference=AaVGc3k65dGzITVfQw0Zjy8c78fTG3sYtI8Rvu7cse4Xyj94fBgPMzKj1J3-B8sGZeVF9irdUE_o0v_3qFp_w7V4XJQuQgrJYd94d8XJ2pDs1koWbrEgWE0FfSx0SUMidF5BgkaXh5SPzWDLWs-z60DgcZ9oKtzWYl-r5u3jZTkAAM73mn_Gn3ycDPOsbitc_jff707I2HZhvTdqtHi_xJTBDFaxzzRaT2MP5Whr_zueKywwUXI0XfOlNdL1TxEzqrlFzCbvr3Nv1MggzDQYXI-dc1zhaud37Be0Oq_7noNGB2Bmdo4gA2v6lHu6r1-nfEEPtO-Ec76-NTFvKXGrcBdJZuDuTsSg3HHN49QD_iFY8sHBdedb9l0ulzq3-XDJNEH6tT5nOyat8LyOepzCkm0TzUOnBXKyefhOfWCk4Nrvv78&key=AIzaSyBVt52zNoH0eoDZkXH8WoRxvtsV9ZK1Iu4" alt="Gary's Handyman Service (LLC)" loading="lazy">
+    <img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=900&photoreference=AaVGc3kA6Vf198mn9PaAMwCuA2ysMc6DtQtC1JAB5rDHuo7w7iKl5bFtseJ0_ds3snXyivv4nzK0FX81X_buOxBgQP2EIHlzf7Lfk9oNF7K4QF-SRjnwNZ1oJYxE7_zWJIBRDhWLquo0l2rCz9i3ZA9iriu00u-VAi9NgyhhEmbmy1WQM1EvDmv2RjRlu1Mrnpgvk70MN69xdp6vgga2cyHcljeeJdgnbXUlFVwTf5TVNncuDgpElYDtfWTFMuxfOuE8c8q_hrCWOyskQUZVR_WG3G7QTSgJP0oY2JuRgnR7dlNk0dImEoMKaNQpOmb6bOS0AGyxYPI7DUlyOqA9yYkK9WgM-qq62osEbzeHPp4fvyYWGw6ekhtzi-JQ4Dn-DxQ-Edofk8NZYUGaXqneauwRz1BCzWNdjHcpGYmRqXfzZNE&key=AIzaSyBVt52zNoH0eoDZkXH8WoRxvtsV9ZK1Iu4" alt="Gary's Handyman Service (LLC)" loading="lazy">
   </div>
 </section>
 

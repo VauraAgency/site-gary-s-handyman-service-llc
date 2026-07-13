@@ -76,6 +76,11 @@
   .service-detail .body { color: rgba(0,0,0,0.62); font-size: 0.95rem; }
   @media (max-width: 760px) { .service-detail-grid { grid-template-columns: 1fr; } }
 
+  .gallery-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 16px; }
+  .gallery-grid img { border-radius: 14px; width: 100%; height: 320px; object-fit: cover; }
+  .gallery-grid img:first-child { height: 320px; }
+  @media (max-width: 760px) { .gallery-grid { grid-template-columns: 1fr; } .gallery-grid img { height: 220px; } }
+
   .about-layout { display: grid; grid-template-columns: 1fr 0.9fr; gap: 48px; align-items: start; }
   .about-layout img { border-radius: 14px; aspect-ratio: 4/3; object-fit: cover; width: 100%; }
   .about-copy p { color: rgba(0,0,0,0.68); margin-bottom: 18px; max-width: 60ch; }
@@ -158,7 +163,7 @@
       </div>
     </div>
     <div class="hero-panel">
-      <img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photoreference=AaVGc3k65dGzITVfQw0Zjy8c78fTG3sYtI8Rvu7cse4Xyj94fBgPMzKj1J3-B8sGZeVF9irdUE_o0v_3qFp_w7V4XJQuQgrJYd94d8XJ2pDs1koWbrEgWE0FfSx0SUMidF5BgkaXh5SPzWDLWs-z60DgcZ9oKtzWYl-r5u3jZTkAAM73mn_Gn3ycDPOsbitc_jff707I2HZhvTdqtHi_xJTBDFaxzzRaT2MP5Whr_zueKywwUXI0XfOlNdL1TxEzqrlFzCbvr3Nv1MggzDQYXI-dc1zhaud37Be0Oq_7noNGB2Bmdo4gA2v6lHu6r1-nfEEPtO-Ec76-NTFvKXGrcBdJZuDuTsSg3HHN49QD_iFY8sHBdedb9l0ulzq3-XDJNEH6tT5nOyat8LyOepzCkm0TzUOnBXKyefhOfWCk4Nrvv78&key=AIzaSyBVt52zNoH0eoDZkXH8WoRxvtsV9ZK1Iu4" alt="Gary's Handyman Service (LLC)" loading="lazy">
+      <img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photoreference=AaVGc3kA6Vf198mn9PaAMwCuA2ysMc6DtQtC1JAB5rDHuo7w7iKl5bFtseJ0_ds3snXyivv4nzK0FX81X_buOxBgQP2EIHlzf7Lfk9oNF7K4QF-SRjnwNZ1oJYxE7_zWJIBRDhWLquo0l2rCz9i3ZA9iriu00u-VAi9NgyhhEmbmy1WQM1EvDmv2RjRlu1Mrnpgvk70MN69xdp6vgga2cyHcljeeJdgnbXUlFVwTf5TVNncuDgpElYDtfWTFMuxfOuE8c8q_hrCWOyskQUZVR_WG3G7QTSgJP0oY2JuRgnR7dlNk0dImEoMKaNQpOmb6bOS0AGyxYPI7DUlyOqA9yYkK9WgM-qq62osEbzeHPp4fvyYWGw6ekhtzi-JQ4Dn-DxQ-Edofk8NZYUGaXqneauwRz1BCzWNdjHcpGYmRqXfzZNE&key=AIzaSyBVt52zNoH0eoDZkXH8WoRxvtsV9ZK1Iu4" alt="Gary's Handyman Service (LLC)" loading="lazy">
       <div class="hero-stat"><span class="num">4.8★</span><span class="label">from 5 Google reviews</span></div>
       <div class="hero-panel-row"><span class="k">Address</span><span>Morton Ave, Elk River, MN 55330, USA</span></div>
       <div class="hero-panel-row"><span class="k">Phone</span><span>(763) 498-2264</span></div>
@@ -179,6 +184,14 @@
 <div class="service-row"><span class="name">Licensed & Insured</span><span class="blurb">Fully covered work, every job.</span></div>
 <div class="service-row"><span class="name">Same-Day Service</span><span class="blurb">Calls answered fast, no overnight wait.</span></div></div>
     </div>
+  </div>
+</section>
+
+<section class="tight">
+  <div class="container">
+    <div class="gallery-grid" data-reveal><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photoreference=AaVGc3kA6Vf198mn9PaAMwCuA2ysMc6DtQtC1JAB5rDHuo7w7iKl5bFtseJ0_ds3snXyivv4nzK0FX81X_buOxBgQP2EIHlzf7Lfk9oNF7K4QF-SRjnwNZ1oJYxE7_zWJIBRDhWLquo0l2rCz9i3ZA9iriu00u-VAi9NgyhhEmbmy1WQM1EvDmv2RjRlu1Mrnpgvk70MN69xdp6vgga2cyHcljeeJdgnbXUlFVwTf5TVNncuDgpElYDtfWTFMuxfOuE8c8q_hrCWOyskQUZVR_WG3G7QTSgJP0oY2JuRgnR7dlNk0dImEoMKaNQpOmb6bOS0AGyxYPI7DUlyOqA9yYkK9WgM-qq62osEbzeHPp4fvyYWGw6ekhtzi-JQ4Dn-DxQ-Edofk8NZYUGaXqneauwRz1BCzWNdjHcpGYmRqXfzZNE&key=AIzaSyBVt52zNoH0eoDZkXH8WoRxvtsV9ZK1Iu4" alt="Gary's Handyman Service (LLC)" loading="lazy">
+<img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photoreference=AaVGc3mFCWaPbLuhUwegZqFYOZOiRNgEwfasyFuSvwW9JvMjx7jDGWGl6XqVONxQbkm5dlwhuk-Bp8PFu9oQPx-Z2Vg0qOp4TVMx4yg5pQUMb1RzElXHQ1g8KnK3zsfEGtciWYj8sGFRP_Mx94MC4_MdMn3VudSk2tvGAzOqBDm0iwtuY1xThAsXlKW-J3Shbf7aS_AymktHiKYx-V4BtwIeLujd5To0MYhOBIq8z8ghh5-g1mGd8glQfcOInNrbrXIkq5wcoc8en9-D68gsh2M3COBtAyMwbBmauJY9nMPqJJRdR7SUCocdP1JbTfti51svVLjNwCIBAnn0LTK-w9x1x5_lEewBz234T0Sh6xPuWPbNeCnvh4rIWh_PUHS_7WANj2IVK2uMzX9Oqgo35HgdgP-2bivjcS_JlY3t0S7L3fZ_ug&key=AIzaSyBVt52zNoH0eoDZkXH8WoRxvtsV9ZK1Iu4" alt="Gary's Handyman Service (LLC)" loading="lazy">
+<img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photoreference=AaVGc3maMJsBVgviXAANKbgu8mWD38dku4HkhzgFTYavZoS_6HB67qc5e9DM5AHVJBKmcV1R29aJ-GBOOE3VpPQ_Zxzw1glNhl13cqNT_d8DFZeHtDFhXXyEuqLrXKPXQmYNIpeZH9nDb_I9xhbLzr3u3Xiuv0g0QW8Jznuonxrwz04lO1J4julX5pvn-xsDRWcur0cJFKRdMPh8rPcoiQEO0G_xqhC9r3bhpa21_ERpt82MJ82ZX-gSJS_v4o2Yw7w9WUa2mnHlGLfSW9EW2uPKcpgsVhliQsAGoMxwQI1m28CZTHT1HPjPfHQIsDCtbq0s4fujXawUtx5HdSqRrKOt4xQ1LVEGEzPzO59BVNfivJQM00mE9wgoS8WO8FTAm5lN0BiKjncYjCbaXmu6o3jAVZMycPmhiZ-xvt2YUIcakwI&key=AIzaSyBVt52zNoH0eoDZkXH8WoRxvtsV9ZK1Iu4" alt="Gary's Handyman Service (LLC)" loading="lazy"></div>
   </div>
 </section>
 
